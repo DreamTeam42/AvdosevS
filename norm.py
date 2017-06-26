@@ -9,7 +9,7 @@ if __name__ == '__main__':
     data_error={}
     koli4estvo_zapisey=0
     koli4estvo_error=0
-    url_page_1 ="http://irr.ru/real-estate/"
+    url_page_1 ="http://russia.irr.ru/real-estate/"
     r_1 = requests.get(url_page_1)
     soup_1 = BeautifulSoup(r_1.text, 'html.parser')
     #страница со всеми разделами
